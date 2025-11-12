@@ -5,33 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/media-query.css">
 </head>
 
 <body>
 
-    <main>
+    <main class="container">
 
-        <header>
+        <header class="header">
             <div class="imagem">
-                
+
             </div>
-            <h1>Login</h1>
-            <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
         </header>
 
-        <section>
-            <form action="" id="formulario">
+        <section class="formulario">
+
+            <h1>Login</h1>
+            <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+            <form action="cadastro.php" id="formulario">
 
                 <div class="email">
-
-                    <label for="email"><img src="./image/user.png" alt="Usuário"></label>
+                    <label for="email"><img src="../image/user.png" alt="Usuário"></label>
                     <input type="email" id="email" name="email" required placeholder="seu e-mail">
                 </div>
 
                 <div class="senha">
-
-                    <label for="password"><img src="./image/key.png" alt="Senha"></label>
+                    <label for="password"><img src="../image/key.png" alt="Senha"></label>
                     <input type="password" id="password" name="password" required placeholder="sua senha" minlength="8">
                 </div>
 
@@ -40,9 +41,10 @@
                     <button type="button" id="esqueciSenha">Esqueci a senha &#128231</button>
                 </div>
             </form>
-        </section>
 
+        </section>
     </main>
+
 
 </body>
 
