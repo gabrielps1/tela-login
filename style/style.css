@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background: linear-gradient(to left, #e7bb629f, #598baf);
+    background: linear-gradient(to left, #edb8569c, #598baf);
     min-height: 100vh;
     width: 100vw;
     display: flex;
@@ -49,7 +49,7 @@ section > h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px #aaa;
-    font-family: 'Playfair Display', serif;
+    font-family: 'roboto', sans-serif;
     text-transform: uppercase;
     font-size: 2.3em;
     letter-spacing: 2px;
@@ -75,11 +75,12 @@ input {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
     
 }
 .email input, .senha input {
     margin-top: 20px;
+    background-color: whitesmoke;
     height: 100%;
     width: 90%;
     border-radius: 5px;
