@@ -4,11 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background: linear-gradient(to bottom, #b7d3f2, #598baf);
+    background: linear-gradient(to left, #e7bb629f, #598baf);
     min-height: 100vh;
     width: 100vw;
     display: flex;
@@ -19,30 +22,43 @@ body {
 
 main {
     width: 50vw;
-    background-color: white;
     border-radius: 7px;
+    background-color: rgb(238, 238, 238);
     overflow: hidden;
     box-shadow: 7px 5px 10px 1px rgba(0, 0, 0, 0.377)
 
 }
 
-header > img {
-    width: 50vw;
-    height: 40vh;
+header > div.imagem {
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/construcao.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 header > h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #aaa;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 p, form {
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 input {
     margin-bottom: 10px;
+    padding: 3px;
 }
 
 .email, .senha {
