@@ -12,27 +12,33 @@
 <body>
 
     <main>
-        
+
+        <header>
+            <img src="../image/construcao.jpg" alt="Imagem de construção">
+            <h1>Login</h1>
+            <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </header>
+
         <section>
-
-            <header>
-                <h1>Login</h1>
-
-                <p>Seja bem-vindo! Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-
-            </header>
-
             <form action="" id="formulario">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="seu e-mail">
+                
+                <div class="email">
+                    <img src="../image/user.png" alt="Usuário">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required placeholder="seu e-mail">
+                </div>
 
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required placeholder="sua senha">
+                <div class="senha">
+                    <img src="../image/key.png" alt="Senha">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" required placeholder="sua senha">
+                </div>
 
-                <button type="submit" id="entrar">Entrar</button>
-                <button type="button" id="esqueciSenha">Esqueci a senha</button>
+                <div class="botoes">
+                    <button type="submit" id="entrar">Entrar</button>
+                    <button type="button" id="esqueciSenha">Esqueci a senha</button>
+                </div>
             </form>
-
         </section>
 
     </main>
